@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "optimum-habitat-346118-tfstate"
     prefix = "env/prod"
   }
 }
